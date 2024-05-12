@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="fi">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minjan sivu</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="tyyli.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <!-- Navigaatio -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Sivun nimi</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Etusivu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="sivu2.html">Tietoa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sivu3.html">Lajivalikoima</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sivu4.html">Aikataulu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sivu5.html">Ilmoittaudu</a>
+            </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Tutustu lajeihin
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://ibjjf.com/" target="_blank">IBJJF
+                      </a></li>
+                  <li><a class="dropdown-item" href="https://immaf.org/" target="_blank">IMMAF</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="https://www.ibf-usba-boxing.com/">IBF</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Sivun sisältö -->
+      
+      <!-- Karuselli alkaa -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/vaparikuvaksi.jpg" class="d-block w-100" style="max-height: 700px; object-fit: cover;"
+              alt="vapaaottelu">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Vapaaottelu</h5>
+              <p>Nykyajan gladiaattorit</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/lukkopainitreenit.jpg" class="d-block w-100" style="max-height: 700px; object-fit: cover;"
+              alt="lukkopaini">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Lukkopaini</h5>
+              <p>Kurista tai tule kuristetuksi</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/bjjem.jpg" class="d-block w-100" style="max-height: 700px; object-fit: cover;" alt="BJJ">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Brasilialainen jujutsu</h5>
+              <p>Voimaa, notkeutta ja itseluottamusta</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/sm2020.jpg" class="d-block w-100" style="max-height: 700px; object-fit: cover;"
+              alt="kisaaminen">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Kilpaileminen</h5>
+              <p>Näytä kykysi kisamatolla</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Karuselli loppuu  -->
+
+
+      <div class="row g-5 testi">
+        <div class="col-md-6 text-center">
+          <h2 class="text-body-emphasis">Miksi kamppailulajit</h2>
+          <p>Kamppailulajit kehittävät fyysistä kuntoa sekä henkistä vahvuutta. Pääset haastamaan itseäsi ja tapaamaan saman henkistä porukkaa. Opit kurinalaisuutta ja työmoraalia. Kamppailulajit parantavat kärsivällisyyttä ja keskittymiskykyä sekä kehittävät liikkuvuutta ja ketteryyttä. Saat itseluottamusta sekä tietenkin mahtavia
+            muistoja. Kammpailulajit ovat myös loistava tapa lievittää stressiä ja asettaa uusia tavoitteita. </p>
+        </div>
+
+        <div class="col-md-6 text-center">
+          <h2 class="text-body-emphasis">Yleistä</h2>
+          <p>Voit aloittaa ilman aiempaa kokemusta. Aluksi käydään parin kuukauden peruskurssi. Peruskursilla tutustutaan lajin
+            perustekniikoihin ja käytänteisiin. Tämän jälkeen voi lajista riippuen siirtyä joko väliryhmän tai jatkoryhmän
+            treeneihin. Väliryhmän treeneissä kerrataan ja syvennetään tekniikoita. Jatkoryhmässä keskitytään sparraamiseen. Peruskurssin voi toki käydä uudestaan. Perusteiden hiomisesta ei ole koskaan haittaa! 
+          </p>
+        </div>
+      </div>
+
+      
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        &copy; Taavetin taistelijat
+      </div>
+    </footer>
+  </div>
+
+  <!-- Kuvakarusellin automaattinen toisto -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var myCarousel = document.querySelector('#carouselExampleCaptions');
+      var carousel = new bootstrap.Carousel(myCarousel, {
+        interval: 3000
+      });
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+  crossorigin="anonymous"></script>
+</body>
+
+</html>
